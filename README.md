@@ -1,0 +1,1 @@
+This repository demonstrates an example of undefined behavior in Rust related to manipulating vectors using raw pointers. The bug.rs file shows how modifying a vector through a raw pointer after changing its length can lead to unpredictable results. The bugSolution.rs file provides a safer way to modify vector elements by using standard methods.
